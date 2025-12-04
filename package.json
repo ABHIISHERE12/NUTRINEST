@@ -1,0 +1,25 @@
+{
+  "name": "dryfruits",
+  "version": "1.0.0",
+  "description": "An ecommerce site",
+  "keywords": [
+    "none"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "license": "UNLICENSED",
+  "author": "Abhigyna",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
+  }
+}
