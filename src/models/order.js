@@ -10,7 +10,7 @@ const orderSchema = new mongoose.Schema({
   user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
   items: [orderItemSchema],
   address: {},
-  paymentMethod: { type: String, enum: ["COD", "RAZORPAY"], default: "COD" },
+  paymentMethod: { type: String, enum: ["COD", "RAZORPAY", "UPI", "CARD"], default: "COD" },
   paymentResult: {},
   totalAmount: Number,
   status: { type: String, default: "pending" },
